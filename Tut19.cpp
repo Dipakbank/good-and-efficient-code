@@ -1,4 +1,5 @@
 //Function overloading 
+//Output is given as comment at the end of the code
 
 # include <iostream> 
 using namespace std;
@@ -38,7 +39,7 @@ int main()
     cout<<endl;
     cout<<sum(3, 4, 50)<<endl;
     cout<<endl;
-
+    //Same name function with different no. of parameter
     cout<<"The valume of square is"<<endl<<volume(2)<<endl;
     cout<<endl;
     cout<<"The valume of cylinder is"<<endl<<volume(2,5)<<endl;
@@ -48,7 +49,12 @@ int main()
 
 
 }
+
+
 /*
+Output will look like
+
+
 Sum of 2 int is :        
 7
 
